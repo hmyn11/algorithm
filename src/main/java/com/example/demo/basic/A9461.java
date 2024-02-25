@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class A {
+public class A9461 {
 	static int N, M;
 	static int[] ARR;
 	

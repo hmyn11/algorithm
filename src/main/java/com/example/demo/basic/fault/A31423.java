@@ -1,4 +1,4 @@
-package com.example.demo.basic;
+package com.example.demo.basic.fault;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -31,6 +31,7 @@ public class A31423 {
 			sb = new StringBuilder();
 			
 			map.put(a, String.valueOf(sb.append(map.get(a)).append(map.get(b))));
+			map.put(b, "");
 			
 			LAST = a;
 		}
